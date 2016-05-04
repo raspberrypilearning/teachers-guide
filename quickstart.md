@@ -128,9 +128,44 @@ update-rc.d: using dependency based boot sequencing
 
 - To connect to the Raspberry Pi from another computer, you can follow the instructions in one of the links below:
 
-[On Windows](vnc-windows.md)
-[On OS X](vnc-osx.md)
-[On Chrome OS](vnc-chromeos.md)
-[On iOS](vnc-ios.md)
+[On Windows](vnc-windows.md)  
+[On OS X](vnc-osx.md)  
+[On Chrome OS](vnc-chromeos.md)  
+[On iOS](vnc-ios.md)  
 
 ## Option 4 - Remote with SSH
+
+If your students do no need access to a Graphical User Environment, then SSH is an easy way of connecting to and using, Raspberry Pis.
+
+### *nix Operating Systems
+- If your students are using OS X or Linux computers, then SSH is native to the Operating System. Simply open up a terminal and type:
+
+``` bash
+ssh pi@10.10.10.10
+```
+
+- Don't forget to use the IP address of the Raspberry Pi.
+- Then you can type in the password when prompted (usually `raspberry` unless you have changed it).
+
+### Chrome OS and Chrome browser
+
+- If your students are using Chrome OS or have access to the Chrome browser, then there is a Chrome App that allows access over SSH. You can find the Secure Shell App in the Chrome Web Store.
+![](images/chrome-ssh.png)
+- Once it is installed, click on the App to open it.
+![](images/chrome-ssh1.png)
+- Now you can access the Raspberry Pi by typing in the IP address
+![](images/chrome-ssh2.png)
+- Then type in the password
+![](images/chrome-ssh3.png)
+
+### Putty (On Windows)
+
+- Putty is an app that provides a Secure Shell on Windows.
+- Download Putty from [here](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- Once installed, you can open Putty from the Start Menu and type in the IP address
+![](images/ssh-win.png)
+- If it is your first time connecting to this Raspberry Pi, you'll get a warning dialogue box, so click `Yes` to connect.
+![](images/ssh-win2.png)
+- Then you need to enter the username and password for the Raspberry Pi (usually `pi` and `raspberry`)
+![](images/ssh-win3.png)
+
