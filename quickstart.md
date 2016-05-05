@@ -133,12 +133,14 @@ update-rc.d: using dependency based boot sequencing
 [On Chrome OS](vnc-chromeos.md)  
 [On iOS](vnc-ios.md)  
 
+- *Note* - currently software such as MineCraft, PiCamera (preview) and omxplayer will not work over VNC. [RealVNC are working on an experimental server to rectify this.](
+
 ## Option 4 - Remote with SSH
 
 If your students do no need access to a Graphical User Environment, then SSH is an easy way of connecting to and using, Raspberry Pis.
 
 ### *nix Operating Systems
-- If your students are using OS X or Linux computers, then SSH is native to the Operating System. Simply open up a terminal and type:
+- If your students are using OS X or a Linux based OS, then SSH is native to the Operating System. Simply open up a terminal and type:
 
 ``` bash
 ssh pi@10.10.10.10
@@ -149,9 +151,9 @@ ssh pi@10.10.10.10
 
 ### Chrome OS and Chrome browser
 
-- If your students are using Chrome OS or have access to the Chrome browser, then there is a Chrome App that allows access over SSH. You can find the Secure Shell App in the Chrome Web Store.
+- If your students are using Chrome OS or have access to the Chrome browser, then there is a Chrome App that allows access over SSH. You can find the [Secure Shell App in the Chrome Web Store](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en).
 ![](images/chrome-ssh.png)
-- Once it is installed, click on the App to open it.
+- Once installed, click on the App to open it.
 ![](images/chrome-ssh1.png)
 - Now you can access the Raspberry Pi by typing in the IP address
 ![](images/chrome-ssh2.png)
