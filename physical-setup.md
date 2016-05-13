@@ -4,7 +4,7 @@ So you've got a class set of Raspberry Pis. It's time to unbox them and get your
 
 ## Option 1 - Use existing infrastructure
 
-Raspberry Pis work well in existing IT suites, where keyboards, mice and monitors are already situated. As well as the class-set of Raspberry Pis you'll need:
+Raspberry Pis work well in existing IT suites, where keyboards, mice and monitors are already situated. As well as a class-set of Raspberry Pis, you'll need:
 1. A matching number of power supplies *or* USB A to micro-B cables
 2. A matching number of SD cards
 
@@ -23,7 +23,7 @@ With a KVM switch, changing between using the Raspberry Pi and the PC can be acc
 
 ## Option 3 - Use a KVM device
 
-There are several pieces of equipment that can be used with the Raspberry Pi, to provide a keyboard, monitor and mouse. You might like to try a [Motorola Lapdoc](http://www.amazon.com/AT-Laptop-Dock-Motorola-ATRIX/dp/B004M17D62) a [PiTop](https://www.pi-top.com/) or a [Nexdock](http://nexdock.com/)
+There are several pieces of equipment that can be used with the Raspberry Pi, to provide a keyboard, monitor and mouse. You might like to try a [Motorola Lapdoc](http://www.amazon.com/AT-Laptop-Dock-Motorola-ATRIX/dp/B004M17D62) a [PiTop](https://www.pi-top.com/) or a [Nexdock](http://nexdock.com/).
 
 ## Remote Setup
 If these options don't suit your classroom, then you might like to consider using a [remote setup](remote.md).
