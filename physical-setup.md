@@ -25,5 +25,5 @@ With a KVM switch, changing between using the Raspberry Pi and the PC can be acc
 
 There are several pieces of equipment that can be used with the Raspberry Pi, to provide a keyboard, monitor and mouse. You might like to try a [Motorola Lapdoc](http://www.amazon.com/AT-Laptop-Dock-Motorola-ATRIX/dp/B004M17D62) a [PiTop](https://www.pi-top.com/) or a [Nexdock](http://nexdock.com/).
 
-## Remote Setup
+## Option 4 - Remote Setup
 If these options don't suit your classroom, then you might like to consider using a [remote setup](remote.md).
