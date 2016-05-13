@@ -2,7 +2,7 @@
 
 ## Option 1 Remote with VNC
 
-So long as your Raspberry Pis are networked (either via WiFi or a Network Switch), you operate them remotely from you existing networked computer.
+So long as your Raspberry Pis are networked (either via WiFi or a Network Switch), you can operate them remotely from any existing networked computer.
 **V**irtual **N**etwork **C**omputing is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
 
 - First you will need to install a VNC server onto the Raspberry Pi. Open up the terminal and type:
@@ -21,9 +21,10 @@ tightvncserver
 
 ![](images/tightvncserver1.png)
 
-- When the vnc server starts it will tell you which desktop you can use. Normally this will be `:1` but maybe a different number
+- When the VNC server starts it will tell you which desktop you can use. Normally this will be `:1` but maybe a different number
 
 ![](images/tightvncserver2.png)
+
 - Now you can use another computer to control the Raspberry Pi. Depending on the OS of the client machine, there are a variety of apps you can use.
 
 - You might find it useful to have the tightvncserver start every time the Raspberry Pi boots. To do this, you'll need to be `root` so open a terminal and type:
@@ -41,7 +42,7 @@ cd /etc/init.d/
 ``` bash
 nano vncboot
 ```
-- Then copy and paste the followin script into the editor
+- Then copy and paste the following script into the editor
 
 ``` bash
 #! /bin/sh
@@ -112,7 +113,7 @@ update-rc.d: using dependency based boot sequencing
 [On Chrome OS](vnc-chromeos.md)  
 [On iOS](vnc-ios.md)  
 
-- *Note* - currently software such as MineCraft, PiCamera (preview) and omxplayer will not work over VNC. [RealVNC are working on an experimental server to rectify this.](
+- *Note* - currently software such as Minecraft, Picamera (preview) and omxplayer will not work over VNC. [RealVNC are working on an experimental server to rectify this.](https://github.com/RealVNC/raspi-preview)
 
 ## Option 2 - Remote with SSH
 
