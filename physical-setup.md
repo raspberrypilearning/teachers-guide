@@ -11,9 +11,9 @@ Raspberry Pis work well in existing IT suites, where there are already keyboards
 
 You can power a Raspberry Pi using either a micro USB power supply, or using the USB port of a computer. The computer will need to be on, if you're choosing to power it this way.
 
-**Picture of two side by side here**
-
 Remove the HDMI cable and USB mouse and keyboard from the PC, and plug them into the Raspberry Pi.
+
+![pc-setup](images/pc-setup.jpg)
 
 ## Option 2 - Use a KVM switch
 
@@ -21,6 +21,8 @@ A **K**eyboard **V**ideo **M**onitor switch allows you to control two different 
 You can purchase [KVM switches](http://www.ebuyer.com/store/Networking/cat/KVM-Switches) relatively cheaply if you shop around.
 
 With a KVM switch, changing between using the Raspberry Pi and the PC can be accomplished with the push of a button. Simply connect the keyboard, mouse and monitor to the KVM switch, and then connect both the Raspberry Pi and PC to the KVM switch.
+
+![kvm](images/kvm-setup.jpg)
 
 ## Option 3 - Use a KVM device
 
