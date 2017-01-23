@@ -13,6 +13,8 @@ You can power a Raspberry Pi using either a micro USB power supply, or using the
 
 Remove the HDMI cable and USB mouse and keyboard from the PC, and plug them into the Raspberry Pi.
 
+If your monitors have VGA rather than HDMI connectors, you will also need one VGA to HDMI converter per monitor.
+
 ![pc-setup](images/pc-setup.jpg)
 
 ## Option 2 - Use a KVM switch
