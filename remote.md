@@ -6,25 +6,15 @@ So long as your Raspberry Pis are networked, either via WiFi or a network switch
 
 **V**irtual **N**etwork **C**omputing is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
 
-- First, you'll need to install a VNC server on the Raspberry Pi. Open the terminal and type the following:
+- First, you'll need to open a VNC server on your Raspberry Pi. Open a terminal and type in the following:
 
 ``` bash
-sudo apt-get install tightvncserver
+vncserver
 ```
-
-- With the server installed, you need to start it running with the following command:
-
-``` bash
-tightvncserver
-```
-
-- You'll need to create a password at this point:
-
-![](images/tightvncserver1.png)
 
 - When the VNC server starts, it will tell you which desktop you can use. Normally, this will be `:1` but it may be a different number:
 
-![](images/tightvncserver2.png)
+![](images/vncserver.png)
 
 - Now you can use another computer to control the Raspberry Pi. Depending on the OS of the client machine, there are a variety of apps you can use.
 
@@ -132,14 +122,14 @@ If your students don't need access to a graphical user interface (GUI), then SSH
 ssh pi@10.10.10.10
 ```
 
-- Don't forget to use the IP address of the Raspberry Pi.
+- Don't forget to replace 10.10.10.10 with the IP address of the Raspberry Pi.
 
 - Then you can type in the password when prompted, usually `raspberry` unless you have changed it.
 
 ### Chrome OS and Chrome browser
 
 - If your students are using Chrome OS or have access to the Chrome browser, then there's a Chrome app that allows access over SSH. You can find the Secure Shell App in the [Chrome Web Store](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en).
- 
+
 ![](images/chrome-ssh.png)
 
 - Once installed, click on the app to open it:
@@ -171,4 +161,3 @@ PuTTY is an app that provides SSH access on Windows.
 - Then you need to enter the username and password for the Raspberry Pi (usually `pi` and `raspberry`):
 
 ![](images/ssh-win3.png)
-
