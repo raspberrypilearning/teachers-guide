@@ -13,6 +13,8 @@ So long as your Raspberry Pis are networked, either via WiFi or a network switch
 
 - Then you need to *Enable* the VNC Server by checking the `Enabled` Radio button.
 
+![preferences](images/preferences.png)
+
 - You should see the icon for the VNC Server in your menu bar.
 
 ![menu](images/menu.png)
