@@ -6,8 +6,9 @@ As long as your Raspberry Pis are networked, either via WiFi or a network switch
 
 Virtual Network Computing (VNC) is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
 
-- The first thing to do is to enable the VNC server on the Raspberry Pi. Raspbian comes preinstalled with [RealVNC](https://www.realvnc.com/).
-- Click on `Menu`>`Preferences`>`Raspberry Pi Configuration`
+- The first thing to do is to enable the VNC server on the Raspberry Pi. Raspbian comes pre-installed with [RealVNC](https://www.realvnc.com/).
+
+- Click on `Menu`>`Preferences`>`Raspberry Pi Configuration`.
 
 ![config menu](images/config.png)
 
@@ -15,15 +16,15 @@ Virtual Network Computing (VNC) is a protocol that allows you to control one com
 
 ![preferences](images/preferences.png)
 
-- You should see the icon for the VNC Server in your menu bar.
+You should see the icon for the VNC Server in your menu bar.
 
 ![menu](images/menu.png)
 
-- Your VNC Server will now start whenever the Pi is booted, and will continue to do so until you disable the VNC Server again.
+Your VNC Server will now start whenever the Pi is booted, and will continue to do so until you disable the VNC Server again.
 
-- To connect to the Raspberry Pi from another computer, you can follow the instructions in one of the links below:
+To connect to the Raspberry Pi from another computer, you can follow the instructions in one of the links below:
 
-[On Windows, Linux and macOS](vnc-windows.md)  
+[On Windows, Linux, and Mac OS](vnc-windows.md)  
 [On Chrome OS](vnc-chromeos.md)  
 [On iOS](vnc-ios.md)  
 
@@ -33,19 +34,21 @@ If your students don't need access to a graphical user interface (GUI), then SSH
 
 ### Linux-based operating systems
 
-- If your students are using OS X or a Linux-based OS, then SSH is native to the operating system. Simply open a terminal and type:
+If your students are using OS X or a Linux-based OS, then SSH is native to the operating system. 
+
+- Open a terminal and type:
 
 ``` bash
 ssh pi@10.10.10.10
 ```
 
-- Don't forget to replace 10.10.10.10 with the IP address of the Raspberry Pi.
+Don't forget to replace 10.10.10.10 with the IP address of the Raspberry Pi.
 
 - Then you can type in the password when prompted; it is usually `raspberry` unless you have changed it.
 
 ### Chrome OS and Chrome browser
 
-- If your students are using Chrome OS or have access to the Chrome browser, then there's a Chrome app that allows access over SSH. You can find the Secure Shell App in the [Chrome Web Store](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en).
+If your students are using Chrome OS or have access to the Chrome browser, then there's a Chrome app that allows access over SSH. You can find the Secure Shell App in the [Chrome Web Store](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en).
 
 ![](images/chrome-ssh.png)
 
