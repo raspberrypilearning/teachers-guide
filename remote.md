@@ -2,16 +2,16 @@
 
 ## Option 1: Remote with VNC
 
-So long as your Raspberry Pis are networked, either via WiFi or a network switch, you can operate them remotely from any existing networked computer.
+As long as your Raspberry Pis are networked, either via WiFi or a network switch, you can operate them remotely from any existing networked computer.
 
-**V**irtual **N**etwork **C**omputing is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
+Virtual Network Computing (VNC) is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
 
 - The first thing to do is to enable the VNC server on the Raspberry Pi. Raspbian comes preinstalled with RealVNC.
 - Click on `Menu`>`Preferences`>`Raspberry Pi Configuration`
 
 ![config menu](images/config.png)
 
-- Then you need to *Enable* the VNC Server by checking the `Enabled` Radio button.
+- Then you need to **Enable** the VNC Server by clicking the `Enabled` Radio button.
 
 ![preferences](images/preferences.png)
 
