@@ -6,8 +6,8 @@ So you've got a class set of Raspberry Pis. It's time to unbox them and get your
 
 Raspberry Pis work well in existing IT suites, where there are already keyboards, mice, and monitors. As well as a class set of Raspberry Pis, you'll need:
 
-1. A matching number of power supplies or USB A-to-micro-B cables
-1. A matching number of SD cards
+- A matching number of power supplies or USB A-to-micro-B cables
+- A matching number of SD cards
 
 You can power a Raspberry Pi using either a micro USB power supply, or using the USB port of a computer. The computer will need to be switched on if you're choosing to power the Raspberry Pi this way.
 
