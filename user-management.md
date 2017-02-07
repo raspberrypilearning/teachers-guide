@@ -6,7 +6,7 @@ There are several options for handling multiple users and keeping SD cards up to
 
 - The easiest way to manage multiple users on your Raspberry Pis is to provide each student with their own micro SD card.
 
-- Each microSD card can be kept by the students, or more realistically be kept safe (and labelled) by the teacher. This way, all the student's work and their programming environment is kept safe on the card, and only they have access to it.
+- Each micro SD card can be kept by the students, or, more realistically, can be kept safe (and labelled) by the teacher. This way, each student's work and their programming environment is kept safe on the card, and only they have access to it.
 
 ## Mounting a Windows share
 
