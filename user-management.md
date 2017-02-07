@@ -14,7 +14,7 @@ There are several options for handling multiple users and keeping SD cards up to
 
 - Your success with this will depend on the network infrastructure, so you may need to consult your network administrator.
 
-- Your Raspberry Pis will need a program called `cifs`, which you can install with the following command:
+- Your Raspberry Pis will need a program called CIFS, which you can install with the following command:
 
 ``` bash
 sudo apt-get update && sudo apt-get install cifs-utils
