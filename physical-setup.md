@@ -1,6 +1,6 @@
 # Physical classroom setup
 
-So you've got a class set of Raspberry Pis. It's time to unbox them and get your students exploring Linux and physical computing. You have a few main options when using Raspberry Pis in a classroom, which are detailed below.
+So you've got a class set of Raspberry Pis? It's time to unbox them and get your students exploring Linux and physical computing. You have a few main options when using Raspberry Pis in a classroom, which are detailed below.
 
 ## Option 1 - Use existing infrastructure
 
