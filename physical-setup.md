@@ -19,7 +19,7 @@ If your monitors have VGA rather than HDMI connectors, you will also need one VG
 
 ## Option 2 - Use a KVM switch
 
-A Keyboard Video Monitor (KVM) switch allows you to control two different computers using the same peripherals.
+A keyboard video monitor (KVM) switch allows you to control two different computers using the same peripherals.
 You can purchase [KVM switches](http://www.ebuyer.com/store/Networking/cat/KVM-Switches) relatively cheaply if you shop around.
 
 With a KVM switch, changing between using the Raspberry Pi and the PC can be accomplished with the push of a button. Simply connect the keyboard, mouse, and monitor to the KVM switch, and then connect both the Raspberry Pi and PC to the KVM switch.
