@@ -6,7 +6,7 @@ As long as your Raspberry Pis are networked, either via WiFi or a network switch
 
 Virtual Network Computing (VNC) is a protocol that allows you to control one computer from another computer. The advantage of using VNC is that you gain access to the full desktop of the Raspberry Pi, meaning you can use graphical programs from the connected computer.
 
-- The first thing to do is to enable the VNC server on the Raspberry Pi. Raspbian comes preinstalled with RealVNC.
+- The first thing to do is to enable the VNC server on the Raspberry Pi. Raspbian comes preinstalled with [RealVNC](https://www.realvnc.com/).
 - Click on `Menu`>`Preferences`>`Raspberry Pi Configuration`
 
 ![config menu](images/config.png)
