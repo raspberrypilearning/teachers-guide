@@ -41,7 +41,7 @@ ssh pi@10.10.10.10
 
 - Don't forget to replace 10.10.10.10 with the IP address of the Raspberry Pi.
 
-- Then you can type in the password when prompted, usually `raspberry` unless you have changed it.
+- Then you can type in the password when prompted; it is usually `raspberry` unless you have changed it.
 
 ### Chrome OS and Chrome browser
 
