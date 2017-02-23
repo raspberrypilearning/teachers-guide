@@ -2,18 +2,18 @@
 
 OS X has a built-in VNC client that you can use to easily connect to the Raspberry Pi.
 
-- Open up Safari and go to the URL bar. Type in `vnc://10.10.10.100:5901`, but use the IP address of the Raspberry Pi. The port number is always `590X`, where `X` is the virtual desktop you noted earlier:
+1. Open up Safari and go to the URL bar. Type in `vnc://10.10.10.100:5901`, but use the IP address of the Raspberry Pi. The port number is always `590X`, where `X` is the virtual desktop you noted earlier:
 
-![](images/vnc-mac1.png)
+  ![](images/vnc-mac1.png)
 
-- A dialogue box will appear, asking you to confirm the connection:
+1. A dialogue box will appear, asking you to confirm the connection:
 
-![](images/vnc-mac2.png)
+  ![](images/vnc-mac2.png)
 
-- Then a second dialogue box will ask for a password:
+1. Then a second dialogue box will ask for a password:
 
-![](images/vnc-mac3.png)
+  ![](images/vnc-mac3.png)
 
-- Now you should be remotely connected to the Raspberry Pi:
+1. Now you should be remotely connected to the Raspberry Pi:
 
-![](images/vnc-mac4.png)
+  ![](images/vnc-mac4.png)
